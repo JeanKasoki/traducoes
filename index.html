@@ -57,46 +57,46 @@
             margin: 0 auto;
         }
 
-        /* BANNER BRAVE */
+        /* BANNER BRAVE ATUALIZADO */
         .brave-banner {
-            background: linear-gradient(90deg, #ff4c00, #ff1a1a);
+            background: linear-gradient(90deg, #d35400, #c0392b); /* Cores mais suaves e fechadas */
             color: white;
-            text-align: center;
-            padding: 15px 20px;
-            margin: 0 auto 40px;
+            padding: 15px 25px;
+            margin: 0 auto 40px; /* Mantém a caixa no centro da tela */
             border-radius: 12px;
-            max-width: 900px;
+            max-width: 850px;
             display: flex;
             align-items: center;
-            justify-content: center;
-            gap: 15px;
-            box-shadow: 0 5px 15px rgba(255, 76, 0, 0.3);
+            justify-content: center; /* Centraliza o conteúdo internamente */
+            gap: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra mais discreta */
             text-decoration: none;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         .brave-banner:hover {
             transform: translateY(-3px);
-            box-shadow: 0 8px 25px rgba(255, 76, 0, 0.5);
+            box-shadow: 0 8px 25px rgba(211, 84, 0, 0.3);
         }
 
         .brave-banner i {
-            font-size: 2rem;
+            font-size: 2.2rem;
+            opacity: 0.9;
         }
 
         .brave-text {
-            text-align: left;
+            text-align: center; /* Deixa o texto centralizado visualmente */
         }
 
         .brave-text strong {
             display: block;
-            font-size: 1.1rem;
-            margin-bottom: 2px;
+            font-size: 1.15rem;
+            margin-bottom: 4px;
         }
 
         .brave-text span {
-            font-size: 0.9rem;
-            opacity: 0.9;
+            font-size: 0.95rem;
+            opacity: 0.85;
         }
 
         @media (max-width: 768px) {
@@ -104,9 +104,7 @@
                 flex-direction: column;
                 text-align: center;
                 padding: 20px;
-            }
-            .brave-text {
-                text-align: center;
+                gap: 10px;
             }
         }
 
@@ -308,8 +306,8 @@
         <a href="https://brave.com/pt-br/" target="_blank" class="brave-banner">
             <i class="fab fa-brave"></i>
             <div class="brave-text">
-                <strong>Odeia anúncios em encurtadores? Use o navegador Brave!</strong>
-                <span>Ele bloqueia propagandas e pop-ups irritantes nativamente. Baixe de graça clicando aqui.</span>
+                <strong>Baixe o Navegador Brave para não sofrer mais com anúncios</strong>
+                <span>Ele bloqueia propagandas nativamente. Navegue e baixe suas traduções com tranquilidade!</span>
             </div>
         </a>
 
