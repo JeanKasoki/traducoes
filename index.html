@@ -142,6 +142,77 @@
             letter-spacing: 1px;
         }
 
+        /* SEÇÃO DE CONTATO E APOIO */
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            max-width: 1000px;
+            margin: 60px auto 20px;
+            padding: 40px 20px 0;
+            border-top: 1px solid #333;
+        }
+
+        .contact-box {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .contact-box h3, .support-card h3 {
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+
+        .contact-box p {
+            color: var(--text-dim);
+            margin-bottom: 15px;
+        }
+
+        .contact-box a {
+            display: inline-block;
+            color: var(--primary);
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .contact-box a:hover {
+            text-decoration: underline;
+            filter: brightness(1.2);
+        }
+
+        .support-card {
+            background: linear-gradient(135deg, #222, #111);
+            padding: 30px;
+            border-radius: 20px;
+            border: 1px solid var(--primary);
+            text-align: center;
+        }
+
+        .support-card p {
+            color: var(--text-dim);
+            margin-bottom: 20px;
+        }
+
+        .livepix-btn {
+            display: inline-block;
+            background: white;
+            color: black;
+            padding: 12px 25px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .livepix-btn:hover {
+            background: var(--primary);
+            color: white;
+        }
+
         /* FOOTER SIMPLIFICADO */
         footer {
             text-align: center;
@@ -184,7 +255,7 @@
                         <span class="badge x360">Xbox 360</span>
                         <span class="badge ps3">PS3</span>
                     </div>
-                    <a href="/naruto-generations" class="btn-access">Acessar Projeto</a>
+                    <a href="https://jeankasoki.github.io/naruto-storm-generations-ptbr/" class="btn-access">Acessar Projeto</a>
                 </div>
             </div>
 
@@ -233,7 +304,7 @@
                         <span class="badge x360">Xbox 360</span>
                         <span class="badge ps3">PS3</span>
                     </div>
-                    <a href="/spiderman-edge-of-time" class="btn-access">Acessar Projeto</a>
+                    <a href="https://jeankasoki.github.io/spider-man-edge-of-time-ptbr/" class="btn-access">Acessar Projeto</a>
                 </div>
             </div>
 
@@ -246,7 +317,7 @@
                         <span class="badge x360">Xbox 360</span>
                         <span class="badge ps3">PS3</span>
                     </div>
-                    <a href="/spiderman-shattered-dimensions" class="btn-access">Acessar Projeto</a>
+                    <a href="https://jeankasoki.github.io/spider-man-shattered-dimensions-ptbr/" class="btn-access">Acessar Projeto</a>
                 </div>
             </div>
 
@@ -259,7 +330,7 @@
                         <span class="badge x360">Xbox 360</span>
                         <span class="badge ps3">PS3</span>
                     </div>
-                    <a href="/the-amazing-spiderman" class="btn-access">Acessar Projeto</a>
+                    <a href="https://jeankasoki.github.io/the-amazing-spider-man-ptbr/" class="btn-access">Acessar Projeto</a>
                 </div>
             </div>
 
@@ -287,8 +358,27 @@
                 </div>
             </div>
 
-            <!-- PARA ADICIONAR NOVOS JOGOS, BASTA COPIAR E COLAR O BLOCO ACIMA -->
+            <!-- ADICIONAR MAIS JOGOS -->
 
+        </div>
+    </div>
+
+    <!-- CONTATO E APOIO -->
+    <div class="footer-grid">
+        <div class="contact-box">
+            <h3><i class="fas fa-link"></i> Contato & Suporte</h3>
+            <p>Acompanhe os projetos, mande sugestões ou tire dúvidas.</p>
+            <a href="https://www.instagram.com/jeanlinknow/" target="_blank">
+                <i class="fab fa-instagram"></i> @jeanlinknow
+            </a>
+        </div>
+
+        <div class="support-card">
+            <h3><i class="fas fa-coffee"></i> Ajude o Tradutor</h3>
+            <p>Gostou do catálogo? Sua doação ajuda a manter novos projetos de tradução vivos e gratuitos.</p>
+            <a href="https://livepix.gg/jeankasoki" class="livepix-btn" target="_blank">
+                DOAR VIA LIVEPIX
+            </a>
         </div>
     </div>
 
