@@ -57,6 +57,59 @@
             margin: 0 auto;
         }
 
+        /* BANNER BRAVE */
+        .brave-banner {
+            background: linear-gradient(90deg, #ff4c00, #ff1a1a);
+            color: white;
+            text-align: center;
+            padding: 15px 20px;
+            margin: 0 auto 40px;
+            border-radius: 12px;
+            max-width: 900px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            box-shadow: 0 5px 15px rgba(255, 76, 0, 0.3);
+            text-decoration: none;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .brave-banner:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(255, 76, 0, 0.5);
+        }
+
+        .brave-banner i {
+            font-size: 2rem;
+        }
+
+        .brave-text {
+            text-align: left;
+        }
+
+        .brave-text strong {
+            display: block;
+            font-size: 1.1rem;
+            margin-bottom: 2px;
+        }
+
+        .brave-text span {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        @media (max-width: 768px) {
+            .brave-banner {
+                flex-direction: column;
+                text-align: center;
+                padding: 20px;
+            }
+            .brave-text {
+                text-align: center;
+            }
+        }
+
         /* GRID DE JOGOS */
         .container {
             max-width: 1300px;
@@ -122,7 +175,7 @@
 
         .badge.x360 { background: #107c10; color: white; }
         .badge.ps3 { background: #003087; color: white; }
-        .badge.psvita { background: #005eff; color: white; } /* Azul mais vibrante para o PS Vita */
+        .badge.psvita { background: #005eff; color: white; }
         .badge.multi { background: #444; color: white; }
 
         .btn-access {
@@ -250,6 +303,16 @@
     </header>
 
     <div class="container">
+
+        <!-- BANNER BRAVE -->
+        <a href="https://brave.com/pt-br/" target="_blank" class="brave-banner">
+            <i class="fab fa-brave"></i>
+            <div class="brave-text">
+                <strong>Odeia anúncios em encurtadores? Use o navegador Brave!</strong>
+                <span>Ele bloqueia propagandas e pop-ups irritantes nativamente. Baixe de graça clicando aqui.</span>
+            </div>
+        </a>
+
         <div class="games-grid">
 
             <!-- JOGO 1 -->
