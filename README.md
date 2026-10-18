@@ -16,13 +16,13 @@ Atualmente, o catálogo conta com traduções 100% completas para os seguintes t
 * **Naruto Shippuden: Ultimate Ninja Storm 2**
 * **Naruto Shippuden: Ultimate Ninja Storm Generations**
 * **Prototype**
-* **Prototype 2**
+* **Prototype 2 - Radnet Edition**
 * **Saints Row**
 * **Spider-Man: Edge of Time**
 * **Spider-Man: Shattered Dimensions**
 * **The Amazing Spider-Man**
-* **Star Wars: The Force Unleashed**
-* **Star Wars: The Force Unleashed II**
+* **Star Wars: The Force Unleashed - Ultimate Sith Edition**
+* **Star Wars: The Force Unleashed II - Collector's Edition**
 
 *(Novos projetos são adicionados com frequência ao catálogo).*
 
