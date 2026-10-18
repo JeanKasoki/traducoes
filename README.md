@@ -35,7 +35,7 @@ Os patches e arquivos disponibilizados são testados e otimizados para funcionar
 * 🟢 **Xbox 360** (RGH / Exploit)
 * 🔵 **PlayStation 3** (HEN / CFW)
 * 🔵 **PS Vita** (Henkaku / NoNpDrm)
-* 💻 **Emuladores PC** (RPCS3 / Vita3K)
+* 💻 **Emuladores PC** (RPCS3 / Xenia Manager / Vita3K)
 
 ---
 
