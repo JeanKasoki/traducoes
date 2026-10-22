@@ -61,6 +61,7 @@ Encontrou algum bug de texto ou quer acompanhar os bastidores das próximas trad
 
 * **Instagram:** [@jeanlinknow](https://instagram.com/jeanlinknow)
 * **E-mail:** jeanmyjean@hotmail.com
+* **YouTube:** https://www.youtube.com/@jeanlinknow
 
 ---
 *Desenvolvido por JeanKasoki © 2026*
