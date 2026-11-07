@@ -20,6 +20,7 @@ Atualmente, o catálogo conta com traduções 100% completas para os seguintes t
 * **Saints Row**
 * **Spider-Man: Edge of Time**
 * **Spider-Man: Shattered Dimensions**
+* **Spider-Man: Web of Shadows**
 * **The Amazing Spider-Man**
 * **Star Wars: The Force Unleashed - Ultimate Sith Edition**
 * **Star Wars: The Force Unleashed II - Collector's Edition**
